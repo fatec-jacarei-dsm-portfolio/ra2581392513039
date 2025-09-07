@@ -1,11 +1,13 @@
 import type { CSSProperties } from "react";
 import Header from "./components/Header";
+import Sobre from "./components/Sobre";
 
 export default function App() {
 
   return(
     <div style={AppStld}>
       <Header/>
+      <Sobre/>
     </div>
   )
 }
