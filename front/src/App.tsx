@@ -16,6 +16,7 @@ export default function App() {
 
 const AppStld: CSSProperties = {
   backgroundColor: "#262626",
+  backgroundSize: "cover",
   height: "100vh",
   width: "100vw",
 }

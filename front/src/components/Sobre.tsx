@@ -12,7 +12,7 @@ export default function Sobre() {
                     desenvolvimento de software com metodologias agéis e conceitos sólidos <br/>
                     de modelagem e arquitetura de software. <br />
                     <br />
-                    Tem uma ídeia de aplicação ou projeto, posso te ajudar a concretiza-lo <br />
+                    Tem uma ídeia de aplicação ou projeto? Posso te ajudar a concretizá-lo <br />
                     entregando soluções escaláveis. Entre em contato para nos conectarmos.
                 </p>
             </div>
