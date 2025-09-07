@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import Header from "./components/Header";
 import Sobre from "./components/Sobre";
+import Stacks from "./components/Stacks";
 
 export default function App() {
 
@@ -8,6 +9,7 @@ export default function App() {
     <div style={AppStld}>
       <Header/>
       <Sobre/>
+      <Stacks/>
     </div>
   )
 }
