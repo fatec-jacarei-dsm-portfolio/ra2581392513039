@@ -16,5 +16,8 @@ main {
 }
 
 .sobre-foto img {
-    height: 600px;
+    height: 500px;
+    border: 3px #707070 solid;
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.8);;
 }

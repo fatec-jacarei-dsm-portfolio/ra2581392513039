@@ -31,6 +31,7 @@
 
 .container a:hover {
     border: 5px #272727 solid;
+    padding: 25px 35px;
 }
 
 .stacks a img {
