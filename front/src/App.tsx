@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import Header from "./components/Header";
 import Sobre from "./components/Sobre";
 import Stacks from "./components/Stacks";
+import Projetos from "./components/Projetos";
 
 export default function App() {
 
@@ -10,6 +11,7 @@ export default function App() {
       <Header/>
       <Sobre/>
       <Stacks/>
+      <Projetos/>
     </div>
   )
 }
