@@ -46,5 +46,6 @@ header {
 
 .header-container button:hover {
     transform: translateY(-5px);
+    margin-left: -5px;
     padding: 12px 15px;
 }

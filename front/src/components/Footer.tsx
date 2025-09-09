@@ -6,13 +6,13 @@ export default function Footer() {
         <div className="footer">
             <div className="footer-icons">
                 <a href="">
-                    <img src="" alt="Instagram" />
+                    <img src="../public/icons8-instagram-logo.svg" alt="Instagram" />
                 </a>
                 <a href="">
-                    <img src="" alt="GitHub" />
+                    <img src="../public/icons8-github.svg" alt="GitHub" />
                 </a>
                 <a href="">
-                    <img src="" alt="LinkedIn" />
+                    <img src="../public/icons8-linkedin.svg" alt="LinkedIn" />
                 </a>
             </div>
             <div className="footer-text">
