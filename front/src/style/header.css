@@ -28,7 +28,7 @@ header {
 }
 
 .header-container a:hover {
-    font-size: 22px;
+    transform: translateY(-5px);
 }
 
 .header-container button {
@@ -41,5 +41,10 @@ header {
     border: 1px #A7010A solid;
     border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
-    padding: 7px 8px;
+    padding: 10px 12px;
+}
+
+.header-container button:hover {
+    transform: translateY(-5px);
+    padding: 12px 15px;
 }

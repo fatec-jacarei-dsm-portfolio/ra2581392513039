@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 40px;
+    padding-top: 70px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    border: 1px #272727 solid;  
+    box-shadow: 0px -7px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
