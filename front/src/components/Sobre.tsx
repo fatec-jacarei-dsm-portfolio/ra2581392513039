@@ -5,6 +5,7 @@ export default function Sobre() {
     return (
         <main>
             <div className="text">
+                <h1 id="sobre">Sobre</h1>
                 <h2>Márcio Roberto Bueno Junior</h2>
                 <p>
                     Estudante de Desenvolvimento de Software Multiplataforma, natural de Jacareí/SP.<br></br>  
