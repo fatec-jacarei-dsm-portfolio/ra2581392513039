@@ -6,11 +6,12 @@ body {
     height: 100vh;
     width: 100vw;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-/* Estilização Header */
+/* -- Estilização Header -- */
 .cabecalho {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     padding: 30px 0;
     display: flex;
     flex-direction: row;
@@ -37,18 +38,20 @@ body {
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
 }
 
-/* Estilização Sobre */
+/* -- Estilização Sobre -- */
 .sobre {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
     margin-bottom: 90px;
+    padding: 10px 30px 10px 30px;
 }
 
 .sobre-texto {
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -57,14 +60,136 @@ body {
 }
 
 .sobre-foto img {
-    height: 700px;
+    height: 500px;
     border: 3px rgb(173, 0, 14) solid;
     border-radius: 15px;
 }
 
-/* Tecnologias */
+/* -- Estilização Tecnologias -- */
 .tecnologias {
-    background-color: #707070;
-    height: 80rem;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: #707070;
 }
 
+.tecnologias-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    padding: 40px;
+}
+
+.tecnologias-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 150px;
+    width: 150px;
+    border: 2px rgb(173, 0, 14) solid;
+    border-radius: 16px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.8);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tecnologias-img-container:hover {
+    transform: translateY(-5px);
+}
+
+.tecnologias-img-container img {
+    height: 70px;
+}
+
+/* -- Estilização Projetos -- */
+#projetos {
+    margin-top: 60px;
+    padding: 60px 20px;
+    text-align: center;;
+}
+
+#projetos h2 {
+  font-size: 2rem;
+  color: #707070;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+}
+
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+    border: 3px rgb(173, 0, 14) solid;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #707070;
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(173, 0, 14);
+    margin-bottom: 10px;
+}
+
+.projetos-tecnologias {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(173, 0, 14);
+    color: #707070;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005fcc;
+}

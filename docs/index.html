@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/index.css">
 </head>
+
 <body>
 
   <header class="cabecalho">
@@ -19,42 +21,65 @@
     <a href="" class="cabecalho-button">Contato</a>
   </header>
 
-  <main>
-
-    <div class="sobre">
-      <div class="sobre-texto">
-        <h2>Marcio Roberto Bueno Junior</h2>
-        <p>
-          Olá, tudo bem? Sou o Márcio nativo de Jacareí/SP, estudante de Desenvolvimento de Software Multiplataforma <br> 
-          na FATEC/SP Jacareí. Busco integrar times de desenvolvimento de software em ambientes com metodologia <br>
-          ágeis, princípios sólidos de arquitetura de software e gerenciamento de projeto.
-        </p>
-      </div>
-
-      <div class="sobre-foto">
-        <img src="./assets/FotoPerfil.jpeg" alt="">
-      </div>
+  <div class="sobre">
+    <div class="sobre-texto">
+      <h2>Marcio Roberto Bueno Junior</h2>
+      <p>
+        Olá, tudo bem? Sou o Márcio nativo de Jacareí/SP, estudante de <br> Desenvolvimento de Software Multiplataforma
+        na FATEC/SP Jacareí. <br> Busco integrar times de desenvolvimento de software em ambientes <br> com metodologia
+        ágeis, princípios sólidos de arquitetura de software e <br> gerenciamento de projeto.
+      </p>
     </div>
 
-    <section class="tecnologias">
-      <div class="tecnologias-img">
-        <a href="">
-          <img src="" alt="">
-        </a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
-    </section>
-
-    <div class="projetos">
+    <div class="sobre-foto">
+      <img src="./assets/FotoPerfil.jpeg" alt="Foto de Perfil">
     </div>
+  </div>
 
-  </main>
+  <div class="tecnologias">
+    <h2>Tecnologias</h2>
+    <div class="tecnologias-img">
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/typescript.svg" alt="Typescript">
+        Typescript
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/javascript.svg" alt="Javascript">
+        Javascript
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/react.svg" alt="React">
+        React
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/nodejs.svg" alt="Node.js">
+        Node.js
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/html.svg" alt="HTML">
+        HTML
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/css.svg" alt="CSS">
+        CSS
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/postgresql.svg" alt="PostgreSQL">
+        PostgreSQL
+      </a>
+      <a href="" class="tecnologias-img-container">
+        <img src="./assets/linuxmint.svg" alt="LinuxMint">
+        LinuxMint
+      </a>
+    </div>
+  </div>
+
+  <div class="projetos" id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projetos-container" id="projetos-list"></div>
+  </div>
+
+  <script src="./script/index.js"></script>
 
 </body>
 </html>
