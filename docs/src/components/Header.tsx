@@ -12,7 +12,6 @@ export default function Header() {
                     <a href="#tecnologias">Tecnologias</a>
                     <a href="#projects">Projetos</a>
                     <a href="https://www.linkedin.com/in/marcio-roberto-bueno-junior-02a2a4248/">Contato</a>
-                   
                 </div>
             </header>
         )
