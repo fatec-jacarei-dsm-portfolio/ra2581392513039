@@ -63,6 +63,11 @@ body {
     height: 500px;
     border: 3px rgb(173, 0, 14) solid;
     border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sobre-foto img:hover {
+    transform: translateY(-5px);
 }
 
 /* -- Estilização Tecnologias -- */
@@ -190,6 +195,42 @@ body {
     transition: background 0.3s ease;
 }
 
-.btn:hover {
-  background: #005fcc;
+/* Estilização do footer */
+.rodape {
+    margin-top: 60px;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px #272727 solid;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);;
+}
+
+.rodape-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape-links-link img {
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.rodape-links-link img:hover {
+    transform: translateY(-5px);
+}
+
+.rodape-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(173, 0, 14);
 }
