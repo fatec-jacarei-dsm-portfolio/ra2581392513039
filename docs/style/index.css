@@ -82,6 +82,7 @@ body {
     font-weight: bold;
     font-size: 19px;
     color: #707070;
+    padding: 30px;
 }
 
 .tecnologias-img {
@@ -233,4 +234,31 @@ body {
     font-weight: bold;
     font-size: 16px;
     color: rgb(173, 0, 14);
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cabecalho {
+    width: 100%;
+  }
+
+  .sobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tecnologias{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tecnologias-img {
+    display: flex;
+    flex-direction: column;
+  }
 }
