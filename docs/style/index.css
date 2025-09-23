@@ -72,7 +72,7 @@ body {
 
 /* -- Estilização Tecnologias -- */
 .tecnologias {
-    margin-top: 150px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center ;
