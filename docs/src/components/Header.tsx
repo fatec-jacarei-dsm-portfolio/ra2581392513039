@@ -1,6 +1,11 @@
 function Header() {
     return (
-        <h1 className="bg-zinc-500/10">Hello World!</h1>
+        <div className="bg-zinc-500/5 flex justify-center gap-20 p-8">
+            <a href="">Sobre mim</a>
+            <a href="">Tecnologias</a>
+            <a href="">Projetos</a>
+            <a href="">Contato</a>
+        </div>
     )
 }
 
