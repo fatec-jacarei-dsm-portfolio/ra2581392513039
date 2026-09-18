@@ -2,6 +2,8 @@ import type {Projeto} from "../types/projeto";
 import ProjetoCard from "./ProjetoCard";
 import imgFatrek from "../assets/imgFatrek.png";
 import imgWantedBooks from "../assets/imgWantedBooks.png";
+import imgInpe from "../assets/imgInpe.png";
+import img1000Vale from "../assets/img1000Vale.png";
 
 const projetos: Projeto[] = [
     {
@@ -19,6 +21,22 @@ const projetos: Projeto[] = [
         link: "https://github.com/MarcioBuenoo/wantedBooks",
         img: imgWantedBooks,
         id: "wantedBooks"
+    },
+    {
+        titulo: "Portal INPE",
+        descricao: "Aplicação web para visualização dos dados limonológicos do INPE1",
+        tecnologias: "Typescript - React - PostgreSQL - Docker",
+        link: "https://github.com/CRIMS0NC0DE/abp-2025-21",
+        img: imgInpe,
+        id: "inpe"
+    },
+    {
+        titulo: "CRM - 1000Valle",
+        descricao: "CRM para gerenciamento de leads de uma concessionária de veículos",
+        tecnologias: "Typescript - React - PostgreSQL - Docker",
+        link: "https://github.com/CRIMS0NC0DE/3DSM-ABP-2026-1",
+        img: img1000Vale,
+        id: "1000vale"
     }
 ]
 
@@ -29,7 +47,7 @@ function Projetos() {
                 Projetos
             </h1>
             <div id="projetos-list" 
-            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols4 gap-8 
+            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-8 
             w-full max-w-6xl mx-auto px-4" >
                 {projetos.map((projeto) => (
                 <ProjetoCard

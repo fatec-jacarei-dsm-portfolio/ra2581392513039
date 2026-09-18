@@ -1,3 +1,4 @@
+import Contatos from "./components/Contatos";
 import Header from "./components/Header"
 import Projetos from "./components/Projetos";
 import SobreMim from "./components/SobreMim";
@@ -10,6 +11,7 @@ function App() {
       <SobreMim></SobreMim>
       <Tecnologias></Tecnologias>
       <Projetos></Projetos>
+      <Contatos></Contatos>
     </>
   )
 }
