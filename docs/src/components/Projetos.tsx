@@ -24,12 +24,13 @@ const projetos: Projeto[] = [
 
 function Projetos() {
     return (
-        <div className="flex items-center justify-center flex-col gap-10">
-            <h1>
+        <div className="flex items-center justify-center flex-col gap-8 p-10">
+            <h1 className="text-lg font-mono font-bold text-red-700 p-15">
                 Projetos
             </h1>
             <div id="projetos-list" 
-            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols4 gap-6 w-full max-w-6xl mx-auto px-4" >
+            className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols4 gap-8 
+            w-full max-w-6xl mx-auto px-4" >
                 {projetos.map((projeto) => (
                 <ProjetoCard
                     key={projeto.id}
