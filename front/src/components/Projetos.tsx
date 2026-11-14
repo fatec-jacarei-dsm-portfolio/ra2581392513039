@@ -4,6 +4,8 @@ import imgFatrek from "../assets/imgFatrek.png";
 import imgWantedBooks from "../assets/imgWantedBooks.png";
 import imgInpe from "../assets/imgInpe.png";
 import img1000Vale from "../assets/img1000Vale.png";
+import imgeFuelz from "../assets/eFuelz.jpeg";
+import imageControleNFC from "../assets/controleNFC.png";
 
 const categorias: { titulo: string; projetos: Projeto[] }[] = [
     {
@@ -33,6 +35,14 @@ const categorias: { titulo: string; projetos: Projeto[] }[] = [
                 img: img1000Vale,
                 id: "1000vale",
             },
+            {
+                titulo: "Controle de acesso por QR e NFC",
+                descricao: "Sistema de controle de acesso utilizando ESP32 + Flutter/Dart",
+                tecnologias: "Flutter - Dart - C++ - ESP32 - NFC",
+                link: "https://github.com/CRIMS0NC0DE/4DSM-ABP-2026-2",
+                img: imageControleNFC,
+                id: "controleNFC"
+            },
         ],
     },
     {
@@ -45,6 +55,14 @@ const categorias: { titulo: string; projetos: Projeto[] }[] = [
                 link: "https://github.com/MarcioBuenoo/wantedBooks",
                 img: imgWantedBooks,
                 id: "wantedBooks",
+            },
+            {
+                titulo: "e-Fuelz",
+                descricao: "Aplicação para acompanhar desempenho do carro. Abastecimento x KM rodado",
+                tecnologias: "Flutter - Dart - RestAPI",
+                link: "https://github.com/marcinbuenoo/efuelz",
+                img: imgeFuelz,
+                id: "eFuelz",
             },
         ],
     },
