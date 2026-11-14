@@ -6,6 +6,7 @@ import imgInpe from "../assets/imgInpe.png";
 import img1000Vale from "../assets/img1000Vale.png";
 import imgeFuelz from "../assets/eFuelz.jpeg";
 import imageControleNFC from "../assets/controleNFC.png";
+import imageStairwayToTony from "../assets/imageTony.png";
 
 const categorias: { titulo: string; projetos: Projeto[] }[] = [
     {
@@ -69,14 +70,21 @@ const categorias: { titulo: string; projetos: Projeto[] }[] = [
     {
         titulo: "Profissionais",
         projetos: [
-
+            {
+                titulo: "StairwayToTony",
+                descricao: "Jogo de plataforma onde você controla um cão chamado Tony",
+                tecnologias: "Godot - GDscript",
+                link: "https://github.com/marcinbuenoo/StairwayToTony",
+                img: imageStairwayToTony,
+                id: "stairwayToTony",
+            },
         ],
     },
 ];
 
 function Projetos() {
     return (
-        <div className="flex flex-col items-center justify-center gap-8 p-10">
+        <div id="projetos" className="scroll-mt-8 flex flex-col items-center justify-center gap-8 p-10">
             <h1 className="p-15 font-mono text-lg font-bold text-red-700">
                 Projetos
             </h1>

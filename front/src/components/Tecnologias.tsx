@@ -9,7 +9,7 @@ import godotLogo from "../assets/godot-original.svg";
 
 function Tecnologias() {
     return (
-        <div className="flex  items-center justify-center flex-col gap-8">
+        <div id="tecnologias" className="scroll-mt-8 flex items-center justify-center flex-col gap-8">
             <div>
                 <h1 className="text-lg font-mono font-bold text-red-700">
                     Tecnologias

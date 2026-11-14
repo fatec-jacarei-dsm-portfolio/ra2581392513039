@@ -2,11 +2,10 @@ import crimsonForgeLogo from "../assets/crimsonForgeLogo.jpeg";
 
 function Header() {
     return (
-        <div className="bg-zinc-500/5 flex justify-center items-center gap-20 p-8 shadow-xl">
-            <img src={crimsonForgeLogo} className="h-13 w-13 object-contain"/>
-            <a href="" className="text-lg font-mono font-bold text-red-700 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100">Tecnologias</a>
-            <a href="" className="text-lg font-mono font-bold text-red-700 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100">Projetos</a>
-            <a href="" className="text-lg font-mono font-bold text-red-700 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100">Contato</a>
+        <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-3 bg-zinc-500/5 p-4 shadow-xl sm:gap-x-10 sm:p-6">
+            <img src={crimsonForgeLogo} className="h-13 w-13 object-contain" alt="Logo Crimson Forge" />
+            <a href="#projetos" className="font-mono text-lg font-bold text-red-700 transition duration-300 hover:-translate-y-1">Projetos</a>
+            <a href="#contatos" className="font-mono text-lg font-bold text-red-700 transition duration-300 hover:-translate-y-1">Contato</a>
         </div>
     )
 }
