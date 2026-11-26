@@ -84,13 +84,13 @@ const categorias: { titulo: string; projetos: Projeto[] }[] = [
 
 function Projetos() {
     return (
-        <div id="projetos" className="scroll-mt-8 flex flex-col items-center justify-center gap-8 p-10">
-            <h1 className="p-15 font-mono text-lg font-bold text-red-700">
+        <div id="projetos" className="scroll-mt-8 flex flex-col items-center justify-center gap-8 px-4 py-12 sm:p-10">
+            <h1 className="font-mono text-lg font-bold text-red-700">
                 Projetos
             </h1>
             <div
                 id="projetos-list"
-                className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 xl:grid-cols-3"
+                className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-8 px-0 sm:px-4 md:grid-cols-2 xl:grid-cols-3"
             >
                 {categorias.map((categoria) => (
                     <section key={categoria.titulo} className="flex flex-col gap-5">

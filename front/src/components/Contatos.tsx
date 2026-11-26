@@ -4,7 +4,7 @@ import gitHubLogo from "../assets/iconsgithub.png";
 
 function Contatos() {
     return (
-        <div id="contatos" className="scroll-mt-8 bg-zinc-500/5 flex justify-center items-center gap-10 md:gap-20 p-8 shadow-xl">
+        <div id="contatos" className="scroll-mt-8 bg-zinc-500/5 flex flex-col-reverse items-center justify-center gap-8 p-8 text-center shadow-xl sm:flex-row sm:gap-10 sm:text-left md:gap-20">
             <div>
                 <p className="font-mono font-bold text-red-700">Desenvolvido por Márcio Bueno</p>
             </div>
